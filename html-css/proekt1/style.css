@@ -4,7 +4,6 @@ body , html {
     height: 100%;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    /* padding: 20px;  */
 }
 
 .center_div {
@@ -23,9 +22,7 @@ body , html {
 
 .center_div a ,p {
     text-decoration: none;
-    color: #8D8D8D;
-    
-    
+    color: #8D8D8D; 
 }
 
 .login-form {
@@ -107,20 +104,16 @@ body , html {
 }
 
 .avatar {
-    /* margin-right: 40px; */
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    align-content: center;
-    
+    align-content: center; 
 }
 
 .avatar img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    /* float: left; */
-    /* padding-right: 10px; */
 }
 
 .avatar p {
@@ -129,8 +122,6 @@ body , html {
     font-size: 18px;
     display: flex;
     align-self: center;
-    /* vertical-align: center; */
-
 }
 
 .mainProduct {
@@ -138,7 +129,6 @@ body , html {
     margin-left: 10%;
     height: auto;
     display: flex;
-    /* position: relative; */
     margin-bottom: 50px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.17);
     border-radius: 10px 0px 0px 10px;
@@ -157,37 +147,20 @@ body , html {
 
 .createNewProduct { 
     background: #C6C6C6;
-    /* float: left; */
     width: 50%;
     text-align: center;
     display: flex;
     justify-content: center;
     align-content: center;
-    /* vertical-align: middle;   */
-    /* padding-top: 45%; */
-    /* top:50%;
-    left: 50%; */
-    /* display: block; */
-    /* margin: auto; */
-    
-   
 }
     
     
 
 .button-plus {
-
     margin: 0 auto;
     font-size: 45px;
     text-align: center;
-    
-  
-
 }
-
-/* .newProdText {
-    margin: 0 auto;
-} */
 
 .new-p {
     align-self: center;
@@ -197,16 +170,8 @@ body , html {
     margin-left: 10%;
 }
 
-.backNewProd p{
-    color: black;
-    font-size: 24px;
-    font-weight: bold;
-}
-
 .prodText_dropdown {
-    /* margin-left:5%; */
-    /* margin-right: 5%; */
-    /* width: 100%; */
+
     height: 10%;
     display: flex;
     justify-content: space-between;
@@ -214,25 +179,15 @@ body , html {
     padding: 0 5%;
 }
 
-/* .prodText{
-    float: left;
-    clear: left;
-    margin-left: 5%;
-} */
-
-.prodText h1 {
+h1 {
     color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 22px; 
 }
 
 .prod_dropdown {
-    /* float: right;
-    clear: right;
-    margin-right: 5%;  */
     align-items: center;
     display: flex;
-
 }
 
 .prod_dropdown label {
@@ -240,8 +195,7 @@ body , html {
 }
 
 .prod_dropdown form {
-    float: right;
-    
+    float: right;   
 }
 
 .prod_dropdown select {
@@ -264,10 +218,6 @@ body , html {
     
 }
 
-/* .table-body {
-    margin-bottom: 5px;
-} */
-
 .table-header , th {
     font-size: 16px;
     color: #404040;
@@ -276,8 +226,6 @@ body , html {
     border-color: #707070;
     text-align: left;
     padding-left: 20px;
-    
-
 }
 
 .table-row , td  {
@@ -314,9 +262,7 @@ body , html {
     border-radius: 5px 5px 5px 5px;
     border: 0;
     cursor: pointer;
-    margin-bottom: 15px;
-   
-  
+    margin-bottom: 15px; 
 }
 
 .product-button-grey {
@@ -326,9 +272,6 @@ body , html {
     background:#576574;
     height: 50px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.17);
-    /* position: fixed;
-    right: 40px;
-    bottom: 60px; */
     border: 0;
     border-radius: 5px 5px 5px 5px ;
     width: 176px;
@@ -340,9 +283,7 @@ body , html {
     width: 90%;
     margin-left: 5%;
     margin-bottom: 10px;
-    /* float: left; */
-    display: flex;
-    
+    display: flex;   
 }
 
 .tabs {
@@ -371,6 +312,7 @@ body , html {
     border: 0;
     cursor: pointer;
     padding: 15px;
+    width: 103px;
 }
 
 
@@ -391,39 +333,33 @@ body , html {
     align-items: center;
     margin-right: 10%;
     font-size: 24px;
-    text-align: center;
-    
-    
-    
+    text-align: center; 
 }
 
 .alert {
     position: fixed;
-  
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  Background: rgba(0, 0, 0, 0.59);
-  z-index: 2;
-  cursor: pointer;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    Background: rgba(0, 0, 0, 0.59);
+    z-index: 2;
+    /* display: none; */
 }
 
 .white-box {
-    Background: #fff;
-    Width: 440px;
-    Height: 225px;
-    Padding: 40px;
+    background: #fff;
+    width: 440px;
+    height: 225px;
+    padding: 40px;
     border-radius: 10px;
-
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    
+    -ms-transform: translate(-50%,-50%); 
 }
 
 .white-box p {
@@ -444,6 +380,7 @@ body , html {
     border-radius: 5px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .cancel-btn {
@@ -453,4 +390,5 @@ body , html {
     font-weight: bold;
     font-size: 15;
     background: transparent;
+    cursor: pointer;
 }
