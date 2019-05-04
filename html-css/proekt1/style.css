@@ -281,10 +281,10 @@ body , html {
 }
 
 .table-row , td  {
-    Font-size: 16px;
-    Color: #575757;
-    Background: #fff;
-    Padding: 20px;
+    font-size: 16px;
+    color: #575757;
+    background: #fff;
+    padding: 20px;
     
 }
 
@@ -292,36 +292,45 @@ body , html {
     margin-right: 5px;
 }
 
+.products-buttons {
+    position: fixed;
+    right: 4%;
+    bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+
+}
+
 .product-button-green {
     font-size: 15px;
     font-weight: bold;
     padding: 15px;
-    Color: #fff;
+    color: #fff;
     background: #1DD1A1;
     height: 50px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.17);
-    position: fixed;
-    right: 40px;
-    bottom: 130px;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 5px 5px 5px 5px;
     border: 0;
     cursor: pointer;
+    margin-bottom: 15px;
    
   
 }
 
 .product-button-grey {
-    Font-size: 15px;
+    font-size: 15px;
     font-weight: bold;
     color: #fff;
-    background:darkgray;
+    background:#576574;
     height: 50px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.17);
-    position: fixed;
+    /* position: fixed;
     right: 40px;
-    bottom: 60px;
+    bottom: 60px; */
     border: 0;
-    border-radius: 5% ;
+    border-radius: 5px 5px 5px 5px ;
     width: 176px;
     cursor: pointer;
 }
