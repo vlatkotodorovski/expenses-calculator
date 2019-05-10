@@ -190,14 +190,14 @@ body , html {
     margin-left: 10%;
 }
 
-.prodText_dropdown {
+/* .prodText_dropdown {
 
     height: 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-}
+} */
 
 h1 {
     color: #000000;
@@ -299,7 +299,7 @@ h1 {
 }
 
 
-.tabs-form {
+/* .tabs-form {
     width: 90%;
     margin-left: 5%;
     margin-bottom: 10px;
@@ -309,7 +309,7 @@ h1 {
 .tabs {
     border-radius: 5px 5px 5px 5px  ;
     margin-right: 40px;
-}
+} */
 
 .tabs .active  {
     Background: #1DD1A1;

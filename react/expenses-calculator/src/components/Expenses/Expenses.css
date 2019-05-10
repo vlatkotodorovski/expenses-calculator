@@ -1,0 +1,11 @@
+.tabs-form {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    display: flex;   
+}
+
+.tabs {
+    border-radius: 5px 5px 5px 5px  ;
+    margin-right: 40px;
+}
