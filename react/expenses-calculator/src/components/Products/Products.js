@@ -7,7 +7,7 @@ export class Products extends React.Component {
     render() {
         return (
             <section id="products">
-                <div className="headerNewProduct">
+                {/* <div className="headerNewProduct">
         <div className="button">
             <button className="button_products">PRODUCTS</button>
             <button className="button_expenses">EXPENSES</button> 
@@ -17,7 +17,7 @@ export class Products extends React.Component {
                 alt="avatar"/>
             <p>Gal Gadot</p>
         </div>
-    </div>
+    </div> */}
     <div className="prodText_dropdown">
         <div>
             <h1>Products</h1>
